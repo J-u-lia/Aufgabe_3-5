@@ -7,7 +7,7 @@ Die App besteht aus einer Startseite und eienm Tab mit Daten. Auf der Startseite
 Um die App starten zu können, muss das Repository gecloned werden Der Befehl "pdm init" muss jedoch nicht ausgeführt werden, da die Datei pyproject.toml, welche alle notwendigen Pakete beinhaltet, durch das clonen bereits existiert. Gestartet wird die App durch den Befehl "streamlit run main.py". 
 
 
-Bilder:
+Screenshots:
 ![alt text](screenshot1.png)
 ![alt text](screenshot2.png)
 ![alt text](screenshot3.png)
@@ -17,7 +17,7 @@ Diese Anwendung dient der Analyse von Leistungsdaten und visualisiert eine Power
 
 Die App ist als PDM-Projekt aufgebaut. Nach dem Herunterladen oder Klonen des Projekts kann es mit Hilfe von PDM eingerichtet und gestartet werden. Dazu installiert man zunächst PDM (sofern nicht bereits vorhanden) über pip install pdm. Anschließend genügt ein pdm install, um alle notwendigen Abhängigkeiten zu installieren. Die Datei mit den Leistungsdaten (activity.csv) muss im Ordner data/activities/ liegen und die entsprechende Spalte PowerOriginal enthalten. Das eigentliche Skript wird anschließend über pdm run python app.py ausgeführt. Die Power Curve wird daraufhin automatisch in einem neuen Browserfenster geöffnet. 
 
-Bild:
+Screenshot:
 ![alt text](screenshot6.png)
 
 
@@ -31,6 +31,6 @@ neue Funktionen:
 
 Um die App zu starten, muss zunächst wieder das Repository von GitHub auf den eigenen Rechner geklont werden. Dazu wird der Befehl git clone verwendet.Falls das Repository bereits zuvor geklont wurde, können Änderungen aus dem GitHub-Repository jederzeit mit dem Befehl git pull auf den lokalen Rechner übertragen und das Projekt aktualisiert werden. Anschließend müssen die benötigten Abhängigkeiten installiert werden. Mit dem Befehl "streamlit run app.py" kann die App aktiv gestartet werden. Nach dem Start öffnet sich die Anwendung automatisch im Browser. 
 
-Bilder:
+Screenshots:
 ![alt text](screenshot4.png)
 ![alt text](screenshot5.png)
