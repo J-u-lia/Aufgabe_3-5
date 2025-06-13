@@ -30,6 +30,5 @@ Neben der EKG-Analyse bietet die App auch eine Leistungsanalyse. Dabei werden du
 
 Um die App lokal auszuführen, muss zunächst das entsprechende GitHub-Repository geklont werden. Dies erfolgt über den Befehl git clone. Falls das Projekt bereits lokal vorhanden ist, können mit git pull aktuelle Änderungen aus dem Repository übernommen werden. Nach dem Klonen bzw. Aktualisieren sollten die erforderlichen Abhängigkeiten mithilfe der Datei requirements.txt installiert werden. Anschließend kann die Anwendung mit dem Befehl streamlit run app.py gestartet werden. Die App öffnet sich automatisch im Browser und ist sofort einsatzbereit.
 
-Screenshots:
 ![alt text](screenshot4.png)
 ![alt text](screenshot5.png)
