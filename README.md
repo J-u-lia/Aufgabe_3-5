@@ -22,7 +22,7 @@ Screenshot:
 
 
 ## Aufgabe 5 - Objektorientierung
-Im Rahmen dieser Aufgabe wurde eine interaktive Streamlit-Anwendung zur Analyse und Visualisierung von EKG- und Leistungsdaten entwickelt. Die App ist als PDM-Projekt strukturiert und kombiniert moderne Visualisierungstechniken mit objektorientierter Programmierung.
+Im Rahmen dieser Aufgabe wurde eine interaktive Streamlit-Anwendung zur Analyse und Visualisierung von EKG- und Leistungsdaten entwickelt. Die App ist als PDM-Projekt strukturiert und kombiniert Methoden zur Datenvisualisierung mit objektorientierter Programmierung.
 
 Die Anwendung ermöglicht zunächst die Auswahl einer Testperson, zu der neben dem Namen auch das Geburtsdatum, Geschlecht, ein Profilbild und eine eindeutige ID angezeigt werden. Für jede ausgewählte Person können verschiedene EKG-Tests eingesehen werden. Die EKG-Daten werden mithilfe von Plotly interaktiv dargestellt. Dabei kommt eine Peak-Erkennung zum Einsatz, die automatisch Ausschläge im EKG-Signal identifiziert. Die erkannten Peaks werden visuell hervorgehoben und zur Berechnung der geschätzten Herzfrequenz in bpm verwendet. Zusätzlich besteht die Möglichkeit, den dargestellten Zeitraum des EKG-Signals individuell anzupassen. Dies erfolgt über die Eingabe von Start- und Endindex, sodass gezielt ein bestimmter Ausschnitt des Signals betrachtet und analysiert werden kann.
 
