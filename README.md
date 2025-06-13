@@ -22,14 +22,13 @@ Screenshot:
 
 
 ## Aufgabe 5 - Objektorientierung
-Diese App ermöglicht nun die Analyse und Visualisierung von EKG-Daten und von Leistungsdaten aus verschiedenen Tests. Die Anwendung basiert auf **Streamlit** und ist als **PDM-Projekt** aufgesetzt. 
-neue Funktionen:
-- Auswahl und Darstellung von Testpersonen (inkl. Bild und Basisdaten wie Name, Geburtsdatum, Geschlecht und id)
-- Visualisierung von EKG Daten in einem interaktiven Plot durch **Plotly** mit Peak-Erkennung 
-- Ablesen der geschätzten Herzfrequenz auf Basis der Peaks
-- Anzeige durchschnittlicher Leistungs- und HF-Daten pro Zone
+Im Rahmen dieser Aufgabe wurde eine interaktive Streamlit-Anwendung zur Analyse und Visualisierung von EKG- und Leistungsdaten entwickelt. Die App ist als PDM-Projekt strukturiert und kombiniert moderne Visualisierungstechniken mit objektorientierter Programmierung.
 
-Um die App zu starten, muss zunächst wieder das Repository von GitHub auf den eigenen Rechner geklont werden. Dazu wird der Befehl git clone verwendet.Falls das Repository bereits zuvor geklont wurde, können Änderungen aus dem GitHub-Repository jederzeit mit dem Befehl git pull auf den lokalen Rechner übertragen und das Projekt aktualisiert werden. Anschließend müssen die benötigten Abhängigkeiten installiert werden. Mit dem Befehl "streamlit run app.py" kann die App aktiv gestartet werden. Nach dem Start öffnet sich die Anwendung automatisch im Browser. 
+Die Anwendung ermöglicht zunächst die Auswahl einer Testperson, zu der neben dem Namen auch das Geburtsdatum, Geschlecht, ein Profilbild und eine eindeutige ID angezeigt werden. Für jede ausgewählte Person können verschiedene EKG-Tests eingesehen werden. Die EKG-Daten werden mithilfe von Plotly interaktiv dargestellt. Dabei kommt eine Peak-Erkennung zum Einsatz, die automatisch Ausschläge im EKG-Signal identifiziert. Die erkannten Peaks werden visuell hervorgehoben und zur Berechnung der geschätzten Herzfrequenz in bpm verwendet. Zusätzlich besteht die Möglichkeit, den dargestellten Zeitraum des EKG-Signals individuell anzupassen. Dies erfolgt über die Eingabe von Start- und Endindex, sodass gezielt ein bestimmter Ausschnitt des Signals betrachtet und analysiert werden kann.
+
+Neben der EKG-Analyse bietet die App auch eine Leistungsanalyse. Dabei werden durchschnittliche Werte für Herzfrequenz und Leistung in unterschiedlichen Zonen angezeigt, um Rückschlüsse auf die Belastungsintensität zu ermöglichen.
+
+Um die App lokal auszuführen, muss zunächst das entsprechende GitHub-Repository geklont werden. Dies erfolgt über den Befehl git clone. Falls das Projekt bereits lokal vorhanden ist, können mit git pull aktuelle Änderungen aus dem Repository übernommen werden. Nach dem Klonen bzw. Aktualisieren sollten die erforderlichen Abhängigkeiten mithilfe der Datei requirements.txt installiert werden. Anschließend kann die Anwendung mit dem Befehl streamlit run app.py gestartet werden. Die App öffnet sich automatisch im Browser und ist sofort einsatzbereit.
 
 Screenshots:
 ![alt text](screenshot4.png)
